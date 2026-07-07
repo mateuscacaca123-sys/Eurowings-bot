@@ -169,7 +169,7 @@ async def on_message(message: discord.Message):
     await bot.process_commands(message)
 
 
-@bot.command(name="help", aliases=["commands"])
+@bot.command(name="efhdbsjkgfweufvbsygiy", aliases=["commands"])
 async def help_cmd(ctx):
     embed = discord.Embed(title="✈️ EuroWings Digital Assistant", description="Welcome! Here's what I can do for you:", color=COR_PRINCIPAL)
     embed.add_field(name=f"`{PREFIX}faq`", value="List all frequently asked questions", inline=False)
